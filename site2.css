@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-image: url(img2/carousel-1.jpg);
+    width: 100%;
+    height: 405px;
+    /*background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;*/
+
+}
+
+.foody{
+    width: 8%;
+    height: auto;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+}

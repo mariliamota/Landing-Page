@@ -1,0 +1,162 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    width: 100%;
+    margin: -10px;
+    height: 477px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.topo button{
+    width: auto;
+    height: 35px;
+    padding: 5px 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+}
+.topo button.preenchido{
+    background-color: white;
+    color: black;
+}
+
+.meio{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.meio div.descricao{
+    color: white;
+    font-size: 30px;
+}
+
+.meio input.pesquisar{
+    width: 360px;
+    height: 43px;
+    border-radius: 35px;
+    padding: 0 20px;
+    border: 0;
+}
+
+.meio input.pesquisar:focus{
+    outline-color: rgb(63, 63, 247);
+}
+
+.meio a.link1{
+    color: white;
+    font-size: 15px;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs a{
+    color: red;
+    text-decoration: none;
+}
+
+.imgs2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img3{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 235, 229, 0.993);
+}
+
+.imgs2 button{
+    width: auto;
+    height: 35px;
+    padding: 5px 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+}
+
+.img3 button{
+    width: auto;
+    height: 35px;
+    padding: 5px 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+}
+
+.imgs p{
+    font-size: 18px;
+}
+
+.img3 img{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.rodape-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape-2 button{
+    width: auto;
+    height: 60px;
+    padding: 5px 16px;
+    background-color: rgb(54, 54, 54);
+    color: gray;
+    border-radius: 10px;
+    border: none;
+}
+
+.rodape-2 button > img.cllr{
+    width: auto;
+    height: 50px;
+}
+
+.rodape-2 button > img.googlepay{
+    width: auto;
+    height: 50px;
+}
